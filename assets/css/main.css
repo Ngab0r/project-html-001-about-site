@@ -65,7 +65,12 @@ body {
       .column2{
         width: 50%;
       }
+      .column-content {
+        margin: 10px;
+      }
     }
+
+    
     
     .row:after {
       content: "";
@@ -78,6 +83,10 @@ body {
       margin: 5px;
       max-height: 95%;
 
+    }
+
+    img {
+      max-width: 100%;
     }
 
     fieldset {
@@ -100,4 +109,8 @@ body {
     footer a:-webkit-any-link {
       color: rgba(255, 255, 255, 1);
       text-decoration: none;
+    }
+
+    .section {
+      margin: 10px 0px 10px 0px;
     }
