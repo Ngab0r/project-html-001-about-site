@@ -27,3 +27,8 @@ body {
       clear: both;
     }
 
+    .gallery {
+      box-shadow: 3px 3px 1px #ccc;
+      margin: 5px;
+
+    }
