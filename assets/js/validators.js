@@ -3,11 +3,6 @@ let nameInput = document.querySelector("#name");
 let emailInput = document.querySelector("#email");
 let messageInput = document.querySelector("#message");
 let messageSendButton = document.querySelector("#sendbutton");
-/*
-sendButton.onclick = function(){
-    alert("Hello JS!");
-}
-*/
 
 let nameValid = false;
 let emailValid = false;
