@@ -32,3 +32,12 @@ body {
       margin: 5px;
 
     }
+
+    fieldset {
+      border-width: 0px;
+    }
+    
+    .floating {
+      float:left; 
+      margin-right: 40px;
+    }
