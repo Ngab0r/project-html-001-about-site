@@ -1,16 +1,22 @@
 body {
   -ms-overflow-style: scrollbar; }
 
-
-
-    .column {
+    .column3 {
+      float: left;
+      width: 100%;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    .column2 {
       float: left;
       width: 100%;
       height: 300px; /* Should be removed. Only for demonstration */
     }
     @media (min-width: 600px) {
-      .column{
+      .column3 {
         width: 33.33%;
+      }
+      .column2{
+        width: 50%;
       }
     }
     
@@ -20,3 +26,4 @@ body {
       display: table;
       clear: both;
     }
+
