@@ -15,21 +15,31 @@ body {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
   -moz-justify-content: space-between;
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
   background: #34495e;
   color: rgba(255, 255, 255, 0.5);
+  white-space: nowrap;
   cursor: default;
-  height: 3.25rem;
+ 
   left: 0;
   line-height: 3.25rem;
   width: 100%;
+}
+
+@media (min-width: 600px) {
+  #header {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    height: 3.25rem;
+  }
+  #menu ul {
+    padding-inline-start: 40px;
+  }
 }
 
 #header>nav>a {
@@ -41,6 +51,7 @@ body {
 
 #menu ul {
   display: flex;
+  padding-inline-start: 0px;
 }
 
 #menu li {
@@ -135,4 +146,6 @@ input[type=text] {
 
 .floatright {
   float: right;
+  margin-right: 10px;
+  ;
 }
